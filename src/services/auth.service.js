@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 
-const API_URL = "http://localhost:8080/api/auth/";
+const API_URL = "https://hidden-harbor-97046.herokuapp.com/api/auth/";
 
 class AuthService {
   async login(username, password) {
