@@ -21,7 +21,7 @@ export const Checkout = () => {
     CheckoutService.getAllOffersForCurrentUser(currentUserId).then((offer) =>
       setOffers(offer.data)
     );
-  }, []);
+  }, [currentUserId]);
 
   let totalSum = 0;
   offers.map((offer) => {

@@ -15,7 +15,7 @@ export const ShoppingCartProvider = ({ children }) => {
         setOffers(offer.data)
       );
     }
-  }, []);
+  }, [currentUserId]);
 
   const onUpdate = () => {
     CheckoutService.getAllOffersForCurrentUser(currentUserId).then((offers) => {

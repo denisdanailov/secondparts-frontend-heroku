@@ -1,11 +1,10 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { ShoppingCartContext } from "../../contexts/ShoppingCartContext";
 
 import AuthService from "../../services/auth.service";
 
 export const Header = () => {
-  const navigate = useNavigate();
   const { offers } = useContext(ShoppingCartContext);
 
   const currentUser = AuthService.getCurrentUser();

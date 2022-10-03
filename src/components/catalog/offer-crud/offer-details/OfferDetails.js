@@ -21,7 +21,7 @@ export const OfferDetails = () => {
   useEffect(() => {
     // onUpdate();
     OfferService.getOfferById(params.id).then((offer) => setOffer(offer.data));
-  }, []);
+  }, [params.id]);
 
   const offerId = offer.id;
   const buyerId = AuthService.getCurrentUser()
@@ -48,7 +48,12 @@ export const OfferDetails = () => {
       <div className="details-wrapper">
         <div className="wrapper">
           <div className="product-img">
-            <img src={offer.imageUrl} height="420" width="327" />
+            <img
+              src={offer.imageUrl}
+              alt="img-offer"
+              height="420"
+              width="327"
+            />
           </div>
           <div className="product-info">
             <div className="product-title">

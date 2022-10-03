@@ -36,7 +36,7 @@ export const Slider = () => {
                     <div className="img-box">
                       <img
                         src="https://res.cloudinary.com/diozchjq4/image/upload/v1659559890/Header-img/mercedes-car-5_zt1dgl.png"
-                        alt="image-hero"
+                        alt="img-hero-slider"
                       />
                     </div>
                   </div>
@@ -67,7 +67,7 @@ export const Slider = () => {
                     <div className="img-box">
                       <img
                         src="https://res.cloudinary.com/diozchjq4/image/upload/v1659559854/Header-img/audi-car_tjoqep.png"
-                        alt="image-hero"
+                        alt="img-hero-hero-2"
                       />
                     </div>
                   </div>
@@ -101,7 +101,7 @@ export const Slider = () => {
                     <div className="img-box">
                       <img
                         src="https://res.cloudinary.com/diozchjq4/image/upload/v1659559911/Header-img/porshe-12_lj7wgo.png"
-                        alt="image-hero"
+                        alt="img-hero-4"
                       />
                     </div>
                   </div>

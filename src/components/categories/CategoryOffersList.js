@@ -15,7 +15,7 @@ export const CategortOffersList = () => {
       setOffers(category.data.offers)
     );
     setIsLoading(false);
-  }, []);
+  }, [params.id]);
 
   return (
     <div className="category-offer-list">

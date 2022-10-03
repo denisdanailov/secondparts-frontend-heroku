@@ -9,7 +9,7 @@ export const Logout = () => {
   useEffect(() => {
     navigate("/");
     AuthService.logout();
-  }, []);
+  }, [navigate]);
 
   return null;
 };

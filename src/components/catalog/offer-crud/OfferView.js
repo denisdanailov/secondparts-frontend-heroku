@@ -39,14 +39,16 @@ export const OfferView = ({ offer, onActionClick }) => {
             if (currentUserId === offer.seller.id) {
               return (
                 <div className="product-links">
-                  <a
+                  <button
                     onClick={() => onActionClick(offer.id, OfferActions.Delete)}
                   >
                     <i className="fa fa-trash"></i>
-                  </a>
-                  <a onClick={() => onActionClick(offer.id, OfferActions.Edit)}>
+                  </button>
+                  <button
+                    onClick={() => onActionClick(offer.id, OfferActions.Edit)}
+                  >
                     <i className="fa fa-edit"></i>
-                  </a>
+                  </button>
                   <Link
                     className="btn-item auction-btn mr-2"
                     to={`/offer/details/${offer.id}`}
@@ -74,14 +76,16 @@ export const OfferView = ({ offer, onActionClick }) => {
                   ) : (
                     ""
                   )}
-                  <a
+                  <button
                     onClick={() => onActionClick(offer.id, OfferActions.Delete)}
                   >
                     <i className="fa fa-trash"></i>
-                  </a>
-                  <a onClick={() => onActionClick(offer.id, OfferActions.Edit)}>
+                  </button>
+                  <button
+                    onClick={() => onActionClick(offer.id, OfferActions.Edit)}
+                  >
                     <i className="fa fa-edit"></i>
-                  </a>
+                  </button>
                 </div>
               );
             }
