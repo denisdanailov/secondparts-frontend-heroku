@@ -26,6 +26,8 @@ export const Slider = () => {
                         <a
                           href="https://www.mercedes-benz.de/"
                           className="btn1"
+                          target="_blank"
+                          rel="noreferrer"
                         >
                           Official page
                         </a>
@@ -36,7 +38,7 @@ export const Slider = () => {
                     <div className="img-box">
                       <img
                         src="https://res.cloudinary.com/diozchjq4/image/upload/v1659559890/Header-img/mercedes-car-5_zt1dgl.png"
-                        alt="img-hero-slider"
+                        alt="hero-mercedes"
                       />
                     </div>
                   </div>
@@ -57,7 +59,12 @@ export const Slider = () => {
                         under one roof.
                       </p>
                       <div className="btn-box">
-                        <a href="https://www.audi.de/" className="btn1">
+                        <a
+                          href="https://www.audi.de/"
+                          className="btn1"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           Official page
                         </a>
                       </div>
@@ -67,7 +74,7 @@ export const Slider = () => {
                     <div className="img-box">
                       <img
                         src="https://res.cloudinary.com/diozchjq4/image/upload/v1659559854/Header-img/audi-car_tjoqep.png"
-                        alt="img-hero-hero-2"
+                        alt="hero-audi"
                       />
                     </div>
                   </div>
@@ -91,6 +98,8 @@ export const Slider = () => {
                         <a
                           href="https://www.porscheengineering.com/"
                           className="btn1"
+                          target="_blank"
+                          rel="noreferrer"
                         >
                           Official page
                         </a>
@@ -101,7 +110,7 @@ export const Slider = () => {
                     <div className="img-box">
                       <img
                         src="https://res.cloudinary.com/diozchjq4/image/upload/v1659559911/Header-img/porshe-12_lj7wgo.png"
-                        alt="img-hero-4"
+                        alt="hero-porsche"
                       />
                     </div>
                   </div>

@@ -180,9 +180,9 @@ export const AdminPanel = () => {
                 </tr>
               ))
             ) : (
-              <div className="searchResult">
-                <p>No Users</p>
-              </div>
+              <tr className="searchResult">
+                <th>No Users</th>
+              </tr>
             )}
           </tbody>
         </table>

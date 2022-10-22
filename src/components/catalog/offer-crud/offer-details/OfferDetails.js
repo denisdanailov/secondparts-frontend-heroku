@@ -16,8 +16,6 @@ export const OfferDetails = () => {
 
   const { onUpdate } = useContext(ShoppingCartContext);
 
-  console.log(AuthService.getUserId());
-
   useEffect(() => {
     // onUpdate();
     OfferService.getOfferById(params.id).then((offer) => setOffer(offer.data));
@@ -48,12 +46,7 @@ export const OfferDetails = () => {
       <div className="details-wrapper">
         <div className="wrapper">
           <div className="product-img">
-            <img
-              src={offer.imageUrl}
-              alt="img-offer"
-              height="420"
-              width="327"
-            />
+            <img src={offer.imageUrl} height="420" width="327" alt="offer" />
           </div>
           <div className="product-info">
             <div className="product-title">

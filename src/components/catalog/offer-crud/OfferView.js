@@ -40,11 +40,13 @@ export const OfferView = ({ offer, onActionClick }) => {
               return (
                 <div className="product-links">
                   <button
+                    className="btn-action-offer"
                     onClick={() => onActionClick(offer.id, OfferActions.Delete)}
                   >
                     <i className="fa fa-trash"></i>
                   </button>
                   <button
+                    className="btn-action-offer"
                     onClick={() => onActionClick(offer.id, OfferActions.Edit)}
                   >
                     <i className="fa fa-edit"></i>
@@ -77,11 +79,13 @@ export const OfferView = ({ offer, onActionClick }) => {
                     ""
                   )}
                   <button
+                    className="btn-action-offer"
                     onClick={() => onActionClick(offer.id, OfferActions.Delete)}
                   >
                     <i className="fa fa-trash"></i>
                   </button>
                   <button
+                    className="btn-action-offer"
                     onClick={() => onActionClick(offer.id, OfferActions.Edit)}
                   >
                     <i className="fa fa-edit"></i>

@@ -210,6 +210,9 @@ a:focus {
   font-family: "Michroma", sans-serif;
 }
 
+
+
+
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
@@ -554,6 +557,13 @@ a:focus {
   -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
 }
+
+.btn-action-offer {
+  border: unset;
+  padding: 4px;
+  font-size: 16px;
+}
+ 
 
 .about_section {
   color: black;

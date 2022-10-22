@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { ShoppingCartContext } from "../../contexts/ShoppingCartContext";
 
 import AuthService from "../../services/auth.service";
 
 export const Header = () => {
+  const navigate = useNavigate();
   const { offers } = useContext(ShoppingCartContext);
 
   const currentUser = AuthService.getCurrentUser();
@@ -16,7 +17,7 @@ export const Header = () => {
           <Link className="navbar-brand" to="/">
             Sec
             <img
-              class="header-logo"
+              className="header-logo"
               src="https://res.cloudinary.com/diozchjq4/image/upload/v1660316070/Logo-SecondParts_arwqo3.png"
               alt="logo"
             />
@@ -97,7 +98,7 @@ export const Header = () => {
                   <Link to="/search">
                     <i className="fa fa-search" aria-hidden="true"></i>
                   </Link>
-                  <Link to="/logout">
+                  <Link to="/logout" onClick={() => navigate("/logout")}>
                     <i className="fa fa-sign-out" aria-hidden="true"></i>
                   </Link>
                 </>

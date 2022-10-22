@@ -7,7 +7,10 @@ export const ModelItem = ({ models }) => {
             Brand: {models.brand.name}
           </h5>
           <p className="font-italic text-muted mb-0 small">
-            <h6 className="font-weight-bold my-2">Model: {models.name}</h6>
+            <span>
+              <b>Model: {models.name}</b>
+            </span>
+            <br />
             <span>Start year: {models.startYear}</span>
             <br />
             <span>End year: {models.endYear}</span>

@@ -9,7 +9,7 @@ export const Steps = () => {
             <div className="img-steps">
               <img
                 src="https://res.cloudinary.com/diozchjq4/image/upload/v1659899184/steps/payment_u45dgh.png"
-                alt="img-step-3"
+                alt="payment"
               ></img>
               <h4>1. Payment</h4>
             </div>
@@ -19,7 +19,7 @@ export const Steps = () => {
             <div className="img-steps">
               <img
                 src="https://res.cloudinary.com/diozchjq4/image/upload/v1659899184/steps/delivery_yehv8h.png"
-                alt="img-step-1"
+                alt="shipping"
               ></img>
               <h4>2. Shipping and delivery</h4>
             </div>
@@ -29,7 +29,7 @@ export const Steps = () => {
             <div className="img-steps">
               <img
                 src="https://res.cloudinary.com/diozchjq4/image/upload/v1659899184/steps/unboxing_ycilzh.png"
-                alt="img-step-2"
+                alt="unboxing"
               ></img>
               <h4>3. Unboxing and Happy Clients</h4>
             </div>
