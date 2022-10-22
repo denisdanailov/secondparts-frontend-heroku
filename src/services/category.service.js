@@ -1,7 +1,7 @@
 import axios from "axios";
 import authHeader from "./auth-header";
 
-const API_URL = "http://localhost:8080/api/category/";
+const API_URL = "https://hidden-harbor-97046.herokuapp.com/api/category/";
 
 class CategoryService {
   getAllViewCategories() {
