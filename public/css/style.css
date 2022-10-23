@@ -870,10 +870,19 @@ a:focus {
 .searchResult {
   margin: 0 auto;
   margin-bottom: 0;
-
-  
   margin-top: 20px;
 }
+
+@media (max-width: 500px) {
+  .searchResult img  {
+    max-width: 250px;
+   }
+
+   .searchResult .offers-btn {
+    padding: 20px;
+   }
+  }
+
 
 .searchResult p {
   width: 100%;
