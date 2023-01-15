@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://hidden-harbor-97046.herokuapp.com/api/auth/";
+const API_URL = "http://secondparts-env.eba-5isfb6gk.eu-central-1.elasticbeanstalk.com/api/auth/";
 
 class AuthService {
   async login(username, password) {

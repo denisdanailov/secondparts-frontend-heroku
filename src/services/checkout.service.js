@@ -1,7 +1,7 @@
 import axios from "axios";
 import authHeader from "./auth-header";
 
-const API_URL = "https://hidden-harbor-97046.herokuapp.com/api/shopping-card/";
+const API_URL = "http://secondparts-env.eba-5isfb6gk.eu-central-1.elasticbeanstalk.com/api/shopping-card/";
 
 class CheckoutService {
   addOfferToCard(data) {
